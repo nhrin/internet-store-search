@@ -1,0 +1,40 @@
+servapplicationer:
+  port: 8080
+
+solr:
+  host: 'http://localhost:8983/solr/store'
+  collection: 'store'
+
+elastic:
+  host: 'localhost'
+  port: 9200
+  index: 'items'
+
+search:
+  search-fields: "{\
+         description: 2.0, \  
+         itemtitle: 1.0 \ 
+         }"
+  term-facets: "category, manufacturer_country, brand"
+  range-facets: "price"
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/store
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: 'postgres'
+    password: 'secret'
+    url: jdbc:postgresql://localhost:5432/postgres
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
+        search:
+          backend:
+            directory:
+              type: local-filesystem

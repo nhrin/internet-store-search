@@ -1,0 +1,31 @@
+<schema>
+    <fields>
+        <!--  Business logic fields -->
+        <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
+        <field name="price" type="pdouble" stored="false"/>
+        <field name="itemtitle" type="text_general"/>
+        <field name="description" type="text_general" stored="false"/>
+        <field name="category" type="string" stored="false"/>
+        <field name="manufacturer_country" type="string" stored="false"/>
+        <field name="brand" type="string" stored="false"/>
+
+        <!-- Service fields-->
+        <field name="_version_" type="plong" multiValued="false"/>
+    </fields>
+
+    <uniqueKey>id</uniqueKey>
+
+    <types>
+        <fieldType name="string" class="solr.StrField" sortMissingLast="true" docValues="true" />
+        <fieldType name="plong" class="solr.LongPointField" docValues="true"/>
+        <fieldType name="pdouble" class="solr.DoublePointField" docValues="true"/>
+        <fieldType name="text_general" class="solr.TextField" positionIncrementGap="10">
+            <analyzer>
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.StopFilterFactory" words="stopwords.txt" ignoreCase="true"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.EnglishPossessiveFilterFactory"/>
+            </analyzer>
+        </fieldType>
+    </types>
+</schema>

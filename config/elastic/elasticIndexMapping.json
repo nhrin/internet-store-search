@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "properties": {
+      "id": { "type": "integer", "store": true  },
+      "item_title": { "type": "text", "store": false },
+      "description": { "type": "text", "store": false  },
+      "category": { "type": "keyword", "store": false },
+      "manufacturer_country": { "type": "keyword", "store": false},
+      "brand": { "type": "keyword", "store": false},
+      "price": { "type": "double", "store": false}
+    }
+  }
+}

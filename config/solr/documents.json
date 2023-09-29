@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "itemtitle": "Bosch electric mixer",
+      "description": "Nice and easy-to-use electric mixer from Boschc will bring you a lot of joy while using it in everyday cooking",
+      "category": "Kitchen Tools",
+      "manufacturer_country": "Germany",
+      "brand": "Bosch",
+      "price": "30.99"
+     },
+    {
+      "id": 2,
+      "itemtitle": "BOSS Audio Systems",
+      "description": "BOSS Audio Systems 616UAB Multimedia Car Stereo - Single Din LCD Bluetooth Audio and Hands-Free Calling, Built-in Microphone, MP3/USB, Aux-in, AM/FM Radio Receiver ",
+      "category": "Car Electronics",
+      "manufacturer_country": "USA",
+      "brand": "Boss",
+      "price": "37.99"
+    },
+    {
+      "id": 3,
+      "itemtitle": "Samsung N4300 24 Inch Full HD Smart TV",
+      "description": "The Perfect Samsung HD Smart TV For Your Entertainment - Whether it is streaming, late night gaming or homework, the Samsung N4300 is the ideal compact TV with ultra-clear picture, vibrant colour and pre-installed with all your favourite content. ",
+      "category": "Home Cinema",
+      "manufacturer_country": "South Korean",
+      "brand": "Samsung",
+      "price": "259.99"
+    },
+    {
+      "id": 4,
+      "itemtitle": "Xiaomi Redmi Watch 2 Lite",
+      "description": "Full display of health with variable distances: blood oxygen level monitoring, stress level monitoring, breath training, body energy monitoring, heart rate monitoring in real time, sleep cycle monitoring (tracking REM, deep and light sleep).",
+      "category": "Wearable Technology",
+      "manufacturer_country": "China",
+      "brand": "Xiaomi",
+      "price": "159.99"
+    },
+    {
+      "id": 5,
+      "itemtitle": "Dash Cam Front and Rear Camera FHD 1080P",
+      "description": "Dual cameras automatically recording the same time when you start engine, you will always under double protect from IIWEY DC01 dash cam. Sharp and smooth Full HD 1080P resolution with 170° ultra-wide angle lenses provide outstanding image quality with a broader field of vision. The rear view cam is waterproof you can install it outside.",
+      "category": "Car Electronics",
+      "manufacturer_country": "China",
+      "brand": "IIWEY",
+      "price": "89.99"
+    },
+    {
+      "id": 6,
+      "itemtitle": "Apple AirPods with wired Charging Case (2nd generation)",
+      "description": "With plenty of talk and listen time, voice-activated Siri access, and an available wireless charging case, AirPods deliver an incredible wireless headphone experience. Simply take them out and they’re ready to use with all your devices. Put them in your ears and they connect immediately, immersing you in rich, high-quality sound.",
+      "category": "Wearable Technology",
+      "manufacturer_country": "USA",
+      "brand": "Apple",
+      "price": "89.99"
+    },
+    {
+      "id": 7,
+      "itemtitle": "Samsung 65 Inch Q80A QLED 4K Smart TV",
+      "description": "HD QLED TV With Wide Viewing Angle Boundless Screen, Alexa Built In, Smart TV Streaming, 100% Colour Volume Picture, Ultrawide Game View. The Samsung Q80A Smart QLED TV gives you cutting edge features for a supremely satisfying TV that supports your lifestyle. The sharpest image, brightest colours, brilliant gameplay and all your favourite content in one.",
+      "category": "Home Cinema",
+      "manufacturer_country": "South Korean",
+      "brand": "Samsung",
+      "price": "999.07"
+    },
+    {
+      "id": 8,
+      "itemtitle": "Sony XR-55A95K MASTER Series",
+      "description": "Our new OLED(QD-OLED) panel delivers our brightest, widest OLED colours yet! With Cognitive Processor XR, BRAVIA TVs analyse the content and recreate it the same way humans see and hear in the real world. The result is your favourite content recreated in a way that’s so real you can feel it.",
+      "category": "Home Cinema",
+      "manufacturer_country": "Japan",
+      "brand": "Sony",
+      "price": "2099.00"
+    },
+    {
+      "id": 9,
+      "itemtitle": "Dell KM7321W Premier Multi-Device Wireless Keyboard and Mouse",
+      "description": "Seamlessly connect up to three devices with this premium keyboard and mouse combo. The dual mode RF 2.4 GHz and Bluetooth 5.0 connectivity lets you effortlessly switch across devices with the connection-mode key or button on your keyboard and mouse.",
+      "category": "Computers",
+      "manufacturer_country": "USA",
+      "brand": "Dell",
+      "price": "39.99"
+    },
+    {
+      "id": 10,
+      "itemtitle": "Logitech MK850 Multi-Device Wireless Keyboard and Mouse Combo",
+      "description": "Experience next-level comfort and productivity with the powerful Logitech MK850 Performance Wireless Keyboard and Mouse Combo.",
+      "category": "Computers",
+      "manufacturer_country": "Switzerland",
+      "brand": "Logitech",
+      "price": "39.99"
+    }
+]
